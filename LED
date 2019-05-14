@@ -2,7 +2,7 @@ int GREEN = 1;
 int YELLOW = 2;
 int RED = 3;
 int DELAY_GREEN = 1000;
-int DELAY_YELLOW = 1000; 
+int DELAY_YELLOW = 1000;
 int DELAY_RED = 1000;
 
 void setup(){ 
@@ -19,6 +19,7 @@ void loop(){
 
   digitalWrite(GREEN, LOW);
   digitalWrite(YELLOW, HIGH);
+  digitalWrite(RED, LOW);
   delay(DELAY_YELLOW); 
 
   digitalWrite(GREEN, LOW);
